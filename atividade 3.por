@@ -1,14 +1,14 @@
 programa {
 
   funcao inicio() {
-  //Declarar variáveis
+  //Declarar variÃ¡veis
   cadeia loginCadastrado = "lucas123" , senhaCadastrada  = "abc456@"
 
-  //Solicitar dados ao usuário
+  //Solicitar dados ao usuÃ¡rio
   escreva("Digite seu login: ")
   leia(loginCadastrado)
 
-  //Verificar se login e senha estão corretos
+  //Verificar se login e senha estÃ£o corretos
   escolha(loginCadastrado){
     caso"lucas123":
      escreva("Digite sua senha: ")
@@ -16,13 +16,13 @@ programa {
      pare
 
      caso contrario:
-     escreva("\nUsuário não encontrado")
+     escreva("\nUsuÃ¡rio nÃ£o encontrado")
      pare
 
      }
   escolha(senhaCadastrada){
     caso"abc456@":
-    escreva("\nBem-Vindo usuário ", loginCadastrado)
+    escreva("\nBem-Vindo usuÃ¡rio ", loginCadastrado)
     pare
 
     caso contrario:
