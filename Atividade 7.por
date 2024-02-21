@@ -4,7 +4,7 @@ programa {
     caracter sexo
     real altura, pesoIdeal
 
-    //Solicitar dados ao usu·rio
+    //Solicitar dados ao usu√°rio
     escreva("Digite o sua altura: ")
     leia(altura)
    
