@@ -1,11 +1,11 @@
 programa {
   funcao inicio() {
-   //Declarar vari·veis
+   //Declarar vari√°veis
    real valor, valorTotal
    inteiro quantidade
 
-   //Solicitar dados ao usu·rio
-   escreva("Digite a quantidade de maÁ„s a serem compradas: ")
+   //Solicitar dados ao usu√°rio
+   escreva("Digite a quantidade de ma√ß√£s a serem compradas: ")
    leia(quantidade)
 
    //Definir valor com base na quantidade
@@ -13,14 +13,14 @@ programa {
     valor = 1.30
     valorTotal = valor * quantidade
     escreva("\nValor unidade: R$", valor)
-    escreva("\nQuantidade de maÁ„s: ", quantidade)
+    escreva("\nQuantidade de ma√ß√£s: ", quantidade)
     escreva("\nValor Final: R$", valorTotal)
 
   }senao{
     valor = 1
     valorTotal = valor * quantidade
     escreva("\nValor unidade: R$", valor)
-    escreva("\nQuantidade de maÁ„s: ", quantidade)
+    escreva("\nQuantidade de ma√ß√£s: ", quantidade)
     escreva("\nValor Final: R$", valorTotal)
   }
 
