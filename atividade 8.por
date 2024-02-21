@@ -1,9 +1,9 @@
 programa {
   funcao inicio() {
-    //Declarar variáveis
+    //Declarar variÃ¡veis
     real altura, peso, imc
 
-    //Solicitar dados ao usuário
+    //Solicitar dados ao usuÃ¡rio
     escreva("Digite sua altura: ")
     leia(altura)
 
@@ -18,7 +18,7 @@ programa {
       escreva("\nAbaixo do peso")
 
     }se(imc>=18.6 e imc<=24.9){
-      escreva("\nPeso Ideal, parabéns")
+      escreva("\nPeso Ideal, parabÃ©ns")
 
     }se(imc>=25 e imc<=29.9){
       escreva("\nLevemente acima do peso")
@@ -30,7 +30,7 @@ programa {
       escreva("\nObesidade grau II (severa)")
     
     }se(imc>40){
-      escreva("\nObesidade grau III (mórbida)")
+      escreva("\nObesidade grau III (mÃ³rbida)")
     
     }
       
