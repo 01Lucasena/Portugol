@@ -1,15 +1,15 @@
 programa {
   funcao inicio() {
-    //Declarar vari·veis
+    //Declarar vari√°veis
     real valor, desconto, valorFinal, valorParcela 
     caracter pagamento
     inteiro parcelas
 
-    //Solicitar dados ao usu·rio
+    //Solicitar dados ao usu√°rio
     escreva("Digite o valor do produto: ")
     leia(valor)
 
-    escreva("Digite a forma de pagamento (1 para ‡ vista ou 2 para ‡ prazo): ")
+    escreva("Digite a forma de pagamento (1 para √† vista ou 2 para √† prazo): ")
     leia(pagamento)    
 
     //Verificar se deve aplicar desconto
@@ -17,7 +17,7 @@ programa {
       caso'1':
       desconto = valor * 0.10
       valorFinal = valor - desconto
-      escreva("\nForma de pagamento: ¿ vista")
+      escreva("\nForma de pagamento: √Ä vista")
       escreva("\nValor do produto: R$",valor)
       escreva("\nValor do desconto: R$",desconto)
       escreva("\nValor Final: R$",valorFinal)
@@ -25,15 +25,15 @@ programa {
       pare
 
       caso'2':
-      escreva("\nDigite a quantidade de parcelas (m·x. 6): ")
+      escreva("\nDigite a quantidade de parcelas (m√°x. 6): ")
       leia(parcelas)
 
       valorParcela = valor / parcelas
-      escreva("\nForma de pagamento: ¿ prazo")
+      escreva("\nForma de pagamento: √Ä prazo")
       escreva("\nValor do produto: R$",valor)
       escreva("\nQuantidade de parcelas:", parcelas)
       escreva("\nValor das parcelas: R$", valorParcela)
-      escreva("\nTotal ‡ prazo: R$",valor)
+      escreva("\nTotal √† prazo: R$",valor)
       pare
      
 
