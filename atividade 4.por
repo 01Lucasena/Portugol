@@ -1,11 +1,11 @@
 programa {
   funcao inicio() {
-    //Declarar Vari·veis
+    //Declarar Vari√°veis
     cadeia nome
     real nota1, nota2
     inteiro media
 
-    //Solicitar dados ao usu·rio
+    //Solicitar dados ao usu√°rio
     escreva("Digite seu nome: ")
     leia(nome)
     
@@ -15,7 +15,7 @@ programa {
     escreva("Digite a nota 2: ")
     leia(nota2)
 
-    //Calcular mÈdia do aluno
+    //Calcular m√©dia do aluno
     
     media = (nota1+nota2)/2
     
@@ -24,7 +24,7 @@ programa {
       escreva("\nAluno: ",nome)
       escreva("\nNota 1: ",nota1)
       escreva("\nNota2: ",nota2)
-      escreva("\nMÈdia: ",media)
+      escreva("\nM√©dia: ",media)
       escreva("\nConceito: A")
       escreva("\nAluno aprovado")
 
@@ -32,7 +32,7 @@ programa {
       escreva("\nAluno: ",nome)
       escreva("\nNota 1: ",nota1)
       escreva("\nNota2: ",nota2)
-      escreva("\nMÈdia: ",media)
+      escreva("\nM√©dia: ",media)
       escreva("\nConceito: B")
       escreva("\nAluno aprovado")
 
@@ -40,7 +40,7 @@ programa {
       escreva("\nAluno: ",nome)
       escreva("\nNota 1: ",nota1)
       escreva("\nNota2: ",nota2)
-      escreva("\nMÈdia: ",media)
+      escreva("\nM√©dia: ",media)
       escreva("\nConceito: C")
       escreva("\nAluno aprovado")
 
@@ -48,7 +48,7 @@ programa {
       escreva("\nAluno: ",nome)
       escreva("\nNota 1: ",nota1)
       escreva("\nNota2: ",nota2)
-      escreva("\nMÈdia: ",media)
+      escreva("\nM√©dia: ",media)
       escreva("\nConceito: D")
       escreva("\nAluno reprovado")
 
@@ -56,7 +56,7 @@ programa {
       escreva("\nAluno: ",nome)
       escreva("\nNota 1: ",nota1)
       escreva("\nNota2: ",nota2)
-      escreva("\nMÈdia: ",media)
+      escreva("\nM√©dia: ",media)
       escreva("\nConceito: E")
       escreva("\nAluno reprovado")
     }
